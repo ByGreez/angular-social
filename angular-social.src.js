@@ -341,7 +341,7 @@ app.directive('ngSocialVk', ['$parse', function ($parse) {
       }
     },
     popup: {
-      url: 'http://vk.com/share.php?url={url}&title={title}&description={description}&image={image}',
+      url: 'http://vk.com/share.php?url={url}',
       width: 550,
       height: 330
     },
